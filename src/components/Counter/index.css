@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #32404d;
+  font-family: 'Roboto';
+}
+
+.count {
+  font-size: 80px;
+  font-family: 'Roboto';
+  color: #2e3e4e;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.decrease-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  border-width: 0px;
+  border-style: none;
+  font-family: 'Roboto';
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.increase-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  border-width: 0px;
+  border-style: none;
+  font-family: 'Roboto';
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
